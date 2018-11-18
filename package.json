@@ -24,7 +24,8 @@
   "homepage": "https://github.com/storybooks/vue-cli-plugin-storybook#readme",
   "dependencies": {
     "@storybook/addons": "4.0.0-alpha.20",
-    "@storybook/vue": "4.0.0-alpha.20"
+    "@storybook/vue": "4.0.0-alpha.20",
+    "vue-storybook": "github:bsanchez/vue-storybook"
   },
   "devDependencies": {
     "@vue/cli": "^3.0.3",

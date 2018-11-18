@@ -4,12 +4,13 @@ module.exports = (api, options, rootOptions) => {
 
   api.extendPackage({
     scripts: {
-      'storybook:serve': 'vue-cli-service storybook:serve -p 6006 -c config/storybook',
-      'storybook:build': 'vue-cli-service storybook:build -c config/storybook',
+      'storybook:serve': 'vue-cli-service storybook:serve -p 6006 -c config/storybook'
     },
     devDependencies: {
-      '@storybook/addon-actions': '4.0.0-alpha.20',
-      '@storybook/addon-links': '4.0.0-alpha.20',
+      '@storybook/addon-actions': '4.0.7',
+      '@storybook/addon-links': '4.0.7',
+      '@storybook/addon-notes': '4.0.7',
+      '@storybook/addon-knobs': '4.0.7',
     },
   });
 

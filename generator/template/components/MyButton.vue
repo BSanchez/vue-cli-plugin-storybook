@@ -27,3 +27,15 @@ button {
   margin: 10px;
 }
 </style>
+
+<story name="with text">
+  <current-component>Hello Button</current-component>
+</story>
+
+<story 
+  name="with some plugins"
+  methods="{doClick: action('click')}"
+  notes="This is cool"
+  knobs="{buttonText: text('Button text', 'initial value')}">
+  <current-component @click="doClick">{{ buttonText }}</current-component>
+</story>
